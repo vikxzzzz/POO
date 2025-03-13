@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Salario {
     public static void main(String[] args) {
-        float salario;
-        float aumento;
+        float salario, percentual;
         Scanner teclado = new Scanner(System.in);
         System.out.println("Informe seu salário:");
         salario = teclado.nextFloat();
         System.out.println("Informe a % do aumento:");
-        aumento = teclado.nextFloat();
+        percentual = teclado.nextFloat();
 
-        float novoSalario = salario + (salario * aumento / 100);
+        float aumento = salario * (percentual / 100);
+        float novoSalario = salario + aumento;
         System.out.println("Novo salário:" + novoSalario);
     }
 }
