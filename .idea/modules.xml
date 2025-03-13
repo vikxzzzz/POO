@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExerciciosJava/ExerciciosJava.iml" filepath="$PROJECT_DIR$/ExerciciosJava/ExerciciosJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IdeaProjects/alomundo/alomundo.iml" filepath="$PROJECT_DIR$/IdeaProjects/alomundo/alomundo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exercicios-slide-1-4/exercicios-slide-1-4.iml" filepath="$PROJECT_DIR$/exercicios-slide-1-4/exercicios-slide-1-4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IdeaProjects/scanner/scanner.iml" filepath="$PROJECT_DIR$/IdeaProjects/scanner/scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MateriasPoo/alomundo/alomundo.iml" filepath="$PROJECT_DIR$/MateriasPoo/alomundo/alomundo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MateriasPoo/scanner/scanner.iml" filepath="$PROJECT_DIR$/MateriasPoo/scanner/scanner.iml" />
     </modules>
   </component>
 </project>

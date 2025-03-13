@@ -10,5 +10,5 @@ public class Leitura {
         System.out.println("Qual a seu peso?");
         peso = teclado.nextFloat();
         System.out.println("Idade: " + idade + "\n" + "Peso: " + peso);
-    }
-}
+    } // fim do metodo main
+} // fim da classe
