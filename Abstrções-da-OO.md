@@ -1,7 +1,7 @@
 # Abstrações da POO
 
 ## Classe 
--> Molde para objetos; representação genérica das propriedades e comportamento de elementod de um conjunto.
+<p>Molde para objetos; representação genérica das propriedades e comportamento de elementod de um conjunto.</p>
 
 ## Objeto
--> Insância (ocorrência específica) de uma classe
+<p>Insância (ocorrência específica) de uma classe</p>
