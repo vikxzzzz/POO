@@ -5,7 +5,7 @@
 | Nome da classe| 
 |-------------|
 | Atributos   |
-| Métodos  |
+| Métodos     |
 
 
 ## Objeto
