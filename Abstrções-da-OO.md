@@ -9,4 +9,4 @@
 | Métodos        |
 
 ## Objeto
-- Insância (ocorrência específica) de uma classe
+- Instância (ocorrência específica) de uma classe
