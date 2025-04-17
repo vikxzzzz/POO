@@ -16,7 +16,7 @@
 
 ## Herança
 - Mecanismo da OO que possibilita a um subtipo aproveitar propriedades (atributos, métodos e relacionamentos) definidas em um supertipo 
-
+                                                                        
 - Uma maneira de promover reúso porém e a pior das maneiras de reúso.
 
 | Pessoa  |                            
@@ -32,7 +32,7 @@
 |                |
         
 
-  ## Representação de herança em Java
+## Representação de herança em Java
 
   - Por meio da palavra reservada: Extends;
 
