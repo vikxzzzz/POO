@@ -10,3 +10,11 @@
 
 ## Objeto
 - Instância (ocorrência específica) de uma classe
+
+
+# Pilares da POO
+
+## Herança
+-
+
+OBS: Uma maneira de promover reúso porém e a pior das maneiras de reúso. (Produtividad)
