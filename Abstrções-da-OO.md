@@ -36,8 +36,7 @@
 
  - Por meio da palavra reservada: Extends;
 
-    <pre> public class Aluno 
-            extends Pessoa {... </pre>
+    <pre> public class Aluno extends Pessoa {... </pre>
 
    Em java não existe herança múltipla entre classes em Java
 
