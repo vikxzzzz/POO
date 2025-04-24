@@ -19,7 +19,7 @@
                                                                         
 - Uma maneira de promover reúso porém e a pior das maneiras de reúso.
 
-- Benefícios:pProtutividade
+- Benefícios: protutividade
   
 
 
