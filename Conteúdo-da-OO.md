@@ -102,7 +102,9 @@ Encapsulamento
   - **private:** a propriedade pode ser acessada somente por objetos da mesma classse.
   - **public:** a propriedade pode ser acessada por objetos de quaisquer classes do mesmo projeto.
   - **"package":** a propriedade pode ser acessada por objetos de quaisquer classes do mesmo pacote.
-  - **protected:** a propriedade pode ser acessada por objetos 
+  - **protected:** a propriedade pode ser acessada:
+1)Objetos de quaisquer classes do mesmo pacote ou;
+2)Por suas superclasses desde que a propriedade tenha sido declarada na propria superclasse 
 
 ### Getters e Setters:
 - Getters (obtém) e Setters (define) permitem acessar e modificar os atributos privados de uma classe.
