@@ -72,17 +72,6 @@ Ajuda a organizar o código de forma mais **hierárquica** e **modular**. Fica m
 
 Alterações feitas na superclasse afetam todas as subclasses, tornando o código mais fácil de manter e atualizar.
 
----
-
-### 🧬 4. Polimorfismo
-
-Permite que você trate objetos de subclasses como objetos da superclasse, facilitando o uso de **polimorfismo**.
-
-```java
-Animal a = new Cachorro();
-a.emitirSom();  // Pode chamar o som específico do Cachorro
-```
----
 
 ### 📦 5. Redução de redundância
 
@@ -109,6 +98,83 @@ Encapsulamento
 ### Getters e Setters:
 - Getters (obtém) e Setters (define) permitem acessar e modificar os atributos privados de uma classe.
 - Getters retornam o valor do atributo, enquanto Setters definem o valor do atributo.
+
+## Polimorfismo
+### 1. Introdução ao polimorfismo
+Polimorfismo é um dos princípios fundamentais da Programação Orientada a Objetos (POO) e permite que um mesmo método possa ser implementado de diferentes formas. Em Java, o polimorfismo pode ser classificado em polimorfismo de compilação (ou sobrecarga) e polimorfismo de tempo de execução (ou sobrescrita).
+
+### 2. Tipos de Polimorfismo
+
+**2.1 Polimorfismo de Compilação (Sobrecarga de Métodos)**
+
+A sobrecarga ocorre quando criamos múltiplos métodos com o mesmo nome, mas com assinaturas diferentes na mesma classe. Isso significa que os métodos devem diferir no tipo ou número de parâmetros.
+
+Exemplo:
+
+    package sobrecarga;
+
+    public class Calculadora {
+
+     // Metodo para somar dois inteiros
+     public int somar(int a, int b) {
+         return a + b;
+     }
+
+     // Metodo para somar três inteiros
+     public int somar(int a, int b, int c) {
+         return a + b + c;
+     }
+
+     // Metodo para somar dois números decimais
+     public double somar(double a, double b) {
+         return a + b;
+     }
+    }
+
+
+    public class TestePolimorfismo {
+        public static void main(String[] args) {
+            Calculadora calc = new Calculadora();
+            System.out.println(calc.somar(2, 3));       // Chama o primeiro método
+            System.out.println(calc.somar(2, 3, 4));    // Chama o segundo método
+            System.out.println(calc.somar(2.5, 3.5));   // Chama o terceiro método
+     }
+    }
+
+**2.2 Polimorfismo de Tempo de Execução (Sobrescrita de Métodos)**
+
+A sobrescrita ocorre quando uma subclasse redefine um método da superclasse com a mesma assinatura.
+
+    public class Animal {
+        void emitirSom() {
+            System.out.println("O animal faz um som.");
+        }
+    }
+
+
+    public class Cachorro extends Animal {
+        @Override
+        void emitirSom() {
+            System.out.println("Au au");
+        }
+    }
+
+    public class Gato extends Animal {
+        @Override
+         void emitirSom() {
+            System.out.println("Miau");
+        }
+    }
+
+    public class TestePolimorfismo {
+        public static void main(String[] args) {
+            Animal meuAnimal1 = new Cachorro();
+            Animal meuAnimal2 = new Gato();
+        
+            meuAnimal1.emitirSom(); // "Au au"
+            meuAnimal2.emitirSom(); // "Miau"
+        }
+    }
 
 ## 🔷 Monolito
 
