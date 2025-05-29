@@ -232,6 +232,37 @@ Java: Implements
 - Evita que a variável seja modificada.
 
 **OBS:** não faz sentido usar o `final` onde se usa `abstract`.
+
+## 🪐Relacionamentos
+
+Os relacionamentos entre entidades podem ser classificados em diferentes tipos, conforme sua semântica e estrutura:
+
+### 1. Generalização / Especialização
+- Representa uma **relação de herança** entre entidades.
+- Uma entidade mais genérica pode ser **especializada** em entidades mais específicas.
+- Exemplo: `Pessoa` (entidade genérica) pode ser especializada em `Cliente` e `Funcionário`.
+
+### 2. Agregação / Composição
+- Representa uma **relação todo/parte** entre objetos.
+
+#### Agregação
+- Relação mais **fraca**, onde as partes podem existir independentemente do todo.
+- Exemplo: `Departamento` agrega `Funcionários`.
+
+#### Composição
+- Relação **forte**, onde as partes **não podem existir** sem o todo.
+- Exemplo: `Casa` compõe `Cômodos`.
+
+### 3. Associação (semântica indefinida)
+- Quando não se define explicitamente a semântica do relacionamento, é utilizada a **associação genérica**.
+- É uma ligação entre duas ou mais entidades, sem indicar hierarquia ou dependência de existência.
+- Exemplo: `Aluno` — `Curso` (Aluno está associado a um Curso).
+
+---
+
+> Em modelagem orientada a objetos e diagramas UML, compreender e aplicar corretamente o tipo de relacionamento é essencial para garantir a integridade e o significado do modelo.
+
+
 ## 🔷 Monolito
 
 - Um **monolito** é uma arquitetura de software onde todos os componentes da aplicação (interface, lógica de negócio e acesso a dados) estão agrupados em uma única base de código e executados como um único processo.
